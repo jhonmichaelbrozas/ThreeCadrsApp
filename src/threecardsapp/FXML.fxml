@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="180.0" prefWidth="240.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="threecardsapp.FXMLController">
+   <children>
+        <Label layoutX="80.0" layoutY="5.0" text="Three Cards App">
+         <font>
+            <Font size="20.0"/>
+         </font>
+        </Label>
+        
+        <Button fx:id="btncarta1" layoutX="0.0" layoutY="90.0" onAction="#f1" prefHeight="23.0" prefWidth="69.0" text="Carta 1" />
+        <Button fx:id="btncarta2" layoutX="120.0" layoutY="90.0" onAction="#f2" prefHeight="23.0" prefWidth="69.0" text="Carta 2" />
+        <Button fx:id="btncarta3" layoutX="235.0" layoutY="90.0" onAction="#f3" prefHeight="23.0" prefWidth="69.0" text="Carta 3" />
+
+        <Label fx:id="testo" layoutX="100.0" layoutY="40.0" minHeight="16" minWidth="69" text="____________________" />
+        <Label fx:id="percentuale" layoutX="14.0" layoutY="170.0" minHeight="16" minWidth="69" text="_________" />
+        <Label fx:id="risultato" layoutX="14.0" layoutY="134.0" minHeight="16" minWidth="69" text="_________" />
+        <Button fx:id="start_continue" layoutX="240.0" layoutY="163.0" onMouseClicked="#reset" text="Start" />
+    </children>  
+</AnchorPane>
